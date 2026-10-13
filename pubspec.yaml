@@ -1,0 +1,46 @@
+name: tessereapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  barcode_widget: ^2.0.4
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^10.3.1
+  mobile_scanner: ^7.4.0
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  image_path: web/icons/Icon-192.png
+  android: true
+  ios: true
+  web:
+    generate: true
+    image_path: web/favicon.png
+  windows:
+    generate: true
+    image_path: web/favicon.png
+  macos:
+    generate: true
+    image_path: web/favicon.png
+  linux:
+    generate: true
+    image_path: web/favicon.png
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - web/favicon.png
+    - web/icons/Icon-192.png
+    - web/icons/Icon-512.png
